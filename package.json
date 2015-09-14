@@ -1,14 +1,22 @@
 {
   "name": "npm-mssql-query",
   "version": "1.0.0",
-  "description": "exec query on msql with node",
+  "description": "exec query on mssql with node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/narsenico/npm-mssql-query.git"
   },
   "author": "narsenico",
   "license": "MIT",
   "dependencies": {
-    "mssql": "^2.2.0"
+    "extract-values": "^0.1.2",
+    "lodash": "^3.10.1",
+    "mssql": "^2.2.0",
+    "promptly": "^0.2.1",
+    "q": "^1.4.1"
   }
 }

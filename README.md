@@ -1,1 +1,3 @@
-exec query on msql with node
+# npm-mssql-query
+
+exec query on mssql with node
